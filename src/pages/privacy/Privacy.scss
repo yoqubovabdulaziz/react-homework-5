@@ -1,0 +1,39 @@
+#privacy {
+  background-color: white;
+  .privacy {
+    padding-top: 150px;
+    padding-bottom: 128px;
+    &__title {
+      font-size: 64px;
+      font-weight: 600;
+      line-height: 72px;
+      letter-spacing: -0.03em;
+      margin-bottom: 24px;
+      color: #1d3444;
+      @media (max-width: 500px) {
+        font-size: 44px;
+      }
+    }
+    &__date {
+      margin-bottom: 48px;
+    }
+    p {
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 28px;
+      color: #5b5b5b;
+      margin-bottom: 24px;
+      @media (max-width: 500px) {
+        font-size: 14px;
+      }
+    }
+    h2 {
+      font-size: 24px;
+      font-weight: 500;
+      line-height: 30px;
+      letter-spacing: -0.03em;
+      color: #0d1317;
+      margin-bottom: 24px;
+    }
+  }
+}
